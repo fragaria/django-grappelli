@@ -55,5 +55,4 @@ urlpatterns = patterns('',
     url(r'^grp-doc/mueller-grid-system-layouts/', TemplateView.as_view(template_name='grp_doc/mueller_grid_system_layouts.html'), name="grp_doc_mueller_grid_system_layouts"),
 
     url(r'^grp-doc', TemplateView.as_view(template_name='grp_doc/index.html'), name="grp_doc"),
-
 )
